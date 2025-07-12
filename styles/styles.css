@@ -50,10 +50,12 @@ body {
 .hero {
   text-align: center;
   margin: 40px 0;
+  border: none;
 }
 .hero h1 {
   font-size: 32px;
   color: #1a1a1a;
+  border: none;
 }
 .hero span {
   color: #3a3a3a;
@@ -268,8 +270,8 @@ body {
   text-align: center;
   padding: 60px 20px;
   background-color: #ffffff;
-  border: 2px solid #00f; /* Optional border like in image */
   margin: 40px;
+  
 }
 
 .hero h2 {
@@ -385,7 +387,6 @@ body {
   text-align: center;
   padding: 60px 20px;
   background-color: #ffffff;
-  border: 2px solid #00f; /* Optional border like in image */
   margin: 40px;
 }
 
