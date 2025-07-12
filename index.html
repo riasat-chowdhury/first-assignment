@@ -7,15 +7,29 @@
   <link rel="stylesheet" href="styles/styles.css" />
 </head>
 <body>
-  <header class="header">
+  <style>
+    body {
+      background-image: url('/background.png');
+      background-size: cover; 
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 100vh;
+      margin: 0;
+      
+    }
+    
+    
+  
+  </style>
     <div class="logo"></div>
-    <img src="logo.jpg" alt="Your Company Name" style="width:150px; height:auto;">
+    <img src="logo.jpg" alt="Este Lauder" style="width:150px; height:auto;">
+    
     
     <a href="#" class="btn-primary">Sign Up</a>
   </header>
 
   <section class="hero">
-    <h1>Cool Dark UI Template for <br><span>Webflow Agencies!</span></h1>
+    <h1>Cool Dark UI Template for <br><span>Este Lauder</span></h1>
     <a href="#" class="btn-secondary">Stay Focused</a>
     
   </section>
@@ -46,6 +60,25 @@
         <h2>95%</h2>
         <p>Satisfaction Rate</p>
       </div>
+    </div>
+  </section>
+  <section class="contact-section">
+    <div class="contact-container">
+      <div class="contact-text">
+        <h1>Let's Get in Touch</h1>
+      </div>
+      <form class="contact-form">
+        <label>Email</label>
+        <input type="email" placeholder="example@email.com" required>
+
+        <label>Name</label>
+        <input type="text" placeholder="full name" required>
+
+        <label>Message</label>
+        <textarea placeholder="write your message..." required></textarea>
+
+        <button type="submit">Get in Touch</button>
+      </form>
     </div>
   </section>
 
